@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>Day 2</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+        <script src="core.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="container">
+                    <h3>Welcome to the DAY-1(api call)</h3>
+                    <div class="card" style="width: 18rem;">
+                        <img src="No_picture_available.png" class="card-img-top" id="img_card" alt="No Image Available">
+                        <div class="card-body">
+                          <h5 class="card-title" id="title">Movie Title</h5>
+                          <p>Year: <span id="year">N/A</span></p>
+                          <p>Director: <span id="director">N/A</span></p>
+                          <p>IMDB rating: <span id="rating">N/A</span></p>
+                          <a href="#" onclick="apiCall()" class="btn btn-primary">Generate Movie</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="container2">
+                    <h3>Welcome to DAY-2(search movie)</h3>
+                    <input class="form-control" type="text" placeholder="Search (Minimum 3 characters required!!!)" aria-label="Search" id="searchBar" onkeyup="movieSearch()">
+                    <div id="display_out">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Using TMDB api -->
+
+        <div class="container3">
+            <h3>DAY 2 end </h3>
+            <div class="row">
+                <div class="col-lg-4">
+                    <input class="form-control" type="text" placeholder="Search (Minimum 3 characters required!!!)" aria-label="Search" id="searchBar2" onkeyup="movieSearch2()">
+                </div>
+                <div class="col-lg-8">
+                    <div id="display_out2">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

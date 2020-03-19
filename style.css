@@ -1,0 +1,47 @@
+.container h3{
+    margin-left: 20%;
+}
+.container img{
+    width:100%;
+    height: 30%;
+    border: 1px solid black;
+    opacity: 1;
+    align-self: end;
+}
+
+.container img:hover{
+    opacity: 0.5;
+}
+
+.container button{
+    margin-top: 10px;
+    
+}
+
+.card {
+    margin-left: 20% /* Added */
+
+}
+
+.card h5{
+    font-weight: bold;
+}
+
+.container2 input{
+    margin-left: 2%;
+    width: 80%;
+}
+
+#display_out{
+    margin-top: 1%;
+}
+#display_out a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    margin-left: 2%;
+    width: 80%;
+  }
+
+#display_out a:hover {background-color: #ddd;}
